@@ -1,0 +1,89 @@
+@media (max-width: 768px) {
+    .main-header {
+        padding: 0px 15px;
+    }
+    .main-header .container .logo {
+        padding: 0px 20px;
+    }
+    .services .container {
+        display: flex;
+        flex-direction: column;
+    }
+    .services .container div {
+        padding-bottom: 70px;
+    }
+    .services .container div:last-child {
+        padding-bottom: 0px;
+    }
+
+    .tools .container .one h1,
+    .profile .container .heading h1,
+    .about .container .heading h1,
+    .contact .container .heading h1{
+        font-size: 50px;
+        text-align: center;
+    }
+    .profile .container .heading p {
+        max-width: 290px;
+        line-height: 1.3;
+    }
+    .tools .container .two .right{
+        display: none;
+    }
+    .tools .container .two .left .top .srv .card1 h3,
+    .tools .container .two .left .top .srv .card3 h3,
+    .tools .container .two .left .bottom .srv .card2 h3,
+    .tools .container .two .left .bottom .srv .card4 h3 {
+        text-align: center;
+    }
+    .tools .container .two .left .top .srv .card1 p,
+    .tools .container .two .left .top .srv .card3 p,
+    .tools .container .two .left .bottom .srv .card2 p,
+    .tools .container .two .left .bottom .srv .card4 p {
+        text-align: center;
+    }
+    .tools .container .two .left .top .srv,
+    .tools .container .two .left .bottom .srv { 
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .tools .container .two .left .top .srv,
+    .tools .container .two .left .bottom .srv {
+        position: relative;
+        left: 35px;
+    }
+    .tools .container .two .left .top {
+        padding-bottom: 50px;
+    }
+    .profile .container .content div {
+        width: 90%;
+        margin: 0 auto;
+    }
+    .profile .container .content {
+        display: flex;
+        flex-direction: column;
+    }
+    .about .container .content .img::before,
+    .about .container .content .img::after{
+        display: none;
+    }
+    .about .container .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .about .container .content .write p {
+        padding: 20px;
+    }
+    .about .container .content .write p:nth-child(1)::after {
+        width: 200px;
+        margin-left: 70px;
+        height: 2px;
+        background-color: #10cab7;
+    }
+    .contact .container .sub-heading{
+        font-size: 15px;
+    }
+}

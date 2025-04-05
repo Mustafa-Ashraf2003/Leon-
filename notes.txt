@@ -1,0 +1,152 @@
+
+/* ============================================== Complete CSS Reset =============================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+/* Complete CSS Reset */
+/* Apply box-sizing to all elements */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+/* Remove default list styles */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove default text decoration */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove border and outline on focus */
+button,
+input,
+textarea {
+  border: none;
+  outline: none;
+  font: inherit;
+}
+
+/* Ensure buttons and clickable elements inherit cursor */
+button,
+a {
+  cursor: pointer;
+}
+
+/* Remove default styles for images */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Set default font and line height */
+body {
+  font-family: "Rubik", serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #000;
+}
+
+/* Normalize HTML5 elements */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+/* Make form elements inherit styles */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove extra space in tables */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+/* Remove default focus outline */
+:focus {
+  outline: none;
+}
+
+/* Set smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+html,
+body {
+  height: 100%;
+}
+
+/* main color */
+:root {
+  --green: #00e77f;
+  --white: #fff;
+  --light-white: #c4c2c2;
+  --black: #0f0f0f;
+  --light-bg: #1b1b1b;
+}
+.container{
+  max-width: 75rem;
+  padding: 0rem 1.25rem;
+  margin: 0rem auto;
+}
+/* =========================================================================================== */
+
+/* ==================================================  The Main HTML Structure  =============================================== */
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Explore a comprehensive online education platform offering courses in web development, digital marketing, science, biology, graphic design, teaching, and engineering. Join now for a rewarding learning experience."
+    />
+    <meta
+      name="keywords"
+      content="education, online courses, web development"
+    />
+    <meta name="author" content="Mustafa Ashraf" />
+    <title>Online Education</title>
+    <link rel="icon" type="image/png" href="image/favicon.svg" />
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/all.min.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+  </head>
+  <body>
+    <script src="JS/script.js"></script>
+    <script src="JS/bootstrap.bundle.min.js"></script>
+    <script src="JS/all.min.js"></script>
+  </body>
+</html>
+
+===========================================================================================================================================
